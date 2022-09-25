@@ -2,7 +2,6 @@ from simulator import Simulator
 from loader import loadBanner
 import sys
 
-p = 0
 
 def start(sim, wishs):
     data = sim.start(wishs)
@@ -42,9 +41,25 @@ def analize(data):
 
 argL = len(sys.argv)
 data = []
-for i in range(sys.argv[argL - 1]):
-    sim = Simulator(sys.argv[argL - 5], sys.argv[argL - 4], loadBanner(sys.argv[argL - 2]))
-    data.append(start(sim, sys.argv[argL - 3]))
+
+try:
+    simulation = int(sys.argv[argL])
+    guarantee = bool(sys.argv[argL - 5])
+    pity = int(sys.argv[argL - 4])
+    wishs = int(sys.argv[argL - 3])
+    banner = str(sys.argv[argL - 2])
+except IndexError:
+    simulation = int(input("Simulation(s): "))
+    guarantee = bool(input("Guarantee: "))
+    pity = int(input("Pity: "))
+    wishs = int(input("Wish(s): "))
+    banner = str(input("Banner: "))
+
+print("Starting " + str(simulation) + " simulation of " + str(wishs) + " wish(s) with guarantee = " + str(guarantee) + ", pity = " + str(pity) + " and banner: " + banner)
+
+for i in range(simulation):
+    sim = Simulator(guarantee, pity, loadBanner(banner))
+    data.append(start(sim, wishs))
 
 analize(data)
 
