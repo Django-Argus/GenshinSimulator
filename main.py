@@ -39,18 +39,25 @@ def analize(data):
     print(str((upFive / wishs) * 100) + "%")
 
 
+def str2bool(v):
+    if type(v) == bool:
+        return v
+
+    return v.lower() in ('true', '0')
+
+
 argL = len(sys.argv)
 data = []
 
 try:
-    simulation = int(sys.argv[argL])
-    guarantee = bool(sys.argv[argL - 5])
+    simulation = int(sys.argv[argL - 1])
+    guarantee = str2bool(sys.argv[argL - 5])
     pity = int(sys.argv[argL - 4])
     wishs = int(sys.argv[argL - 3])
     banner = str(sys.argv[argL - 2])
 except IndexError:
     simulation = int(input("Simulation(s): "))
-    guarantee = bool(input("Guarantee: "))
+    guarantee = str2bool(input("Guarantee: "))
     pity = int(input("Pity: "))
     wishs = int(input("Wish(s): "))
     banner = str(input("Banner: "))
