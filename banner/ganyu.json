@@ -1,0 +1,17 @@
+{
+  "name": "GANYU",
+  "load_path": "banner/ganyu_objects.json",
+  "up": {
+    "3*": [
+
+    ],
+     "4*": [
+      "Dori",
+      "Sucrose",
+      "Xingqiu"
+    ],
+    "5*": [
+      "Ganyu"
+    ]
+  }
+}

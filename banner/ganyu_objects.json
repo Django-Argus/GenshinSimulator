@@ -1,0 +1,245 @@
+{
+  "3*": [
+    {
+      "type": "weapon",
+      "name": "Lance-Pierres"
+    },
+    {
+      "type": "weapon",
+      "name": "Arc du corbeau"
+    },
+    {
+      "type": "weapon",
+      "name": "Histoire des chasseurs de dragon"
+    },
+    {
+      "type": "weapon",
+      "name": "Épée sanglante"
+    },
+    {
+      "type": "weapon",
+      "name": "Épée céleste"
+    },
+    {
+      "type": "weapon",
+      "name": "Lame froide"
+    },
+    {
+      "type": "weapon",
+      "name": "Serment de l'archer"
+    },
+    {
+      "type": "weapon",
+      "name": "Orbe jadien"
+    },
+    {
+      "type": "weapon",
+      "name": "Guide de magie"
+    },
+    {
+      "type": "weapon",
+      "name": "Épée de la raison"
+    },
+    {
+      "type": "weapon",
+      "name": "Ombre ferreuse"
+    },
+    {
+      "type": "weapon",
+      "name": "Messager de l'Aube"
+    }
+  ],
+  "4*": [
+    {
+      "type": "character",
+      "name": "Dori"
+    },
+    {
+      "type": "character",
+      "name": "Sucrose"
+    },
+    {
+      "type": "character",
+      "name": "xingqiu"
+    },
+    {
+      "type": "character",
+      "name": "Kuki Shinobu"
+    },
+    {
+      "type": "character",
+      "name": "Yun Jin"
+    },
+    {
+      "type": "character",
+      "name": "Shikanoin Heizou"
+    },
+    {
+      "type": "character",
+      "name": "Kujou Sara"
+    },
+    {
+      "type": "character",
+      "name": "Gorou"
+    },
+    {
+      "type": "character",
+      "name": "Sayu"
+    },
+    {
+      "type": "character",
+      "name": "Thomas"
+    },
+    {
+      "type": "character",
+      "name": "Yanfei"
+    },
+    {
+      "type": "character",
+      "name": "Rosalia"
+    },
+    {
+      "type": "character",
+      "name": "Xinyan"
+    },
+    {
+      "type": "character",
+      "name": "Diona"
+    },
+    {
+      "type": "character",
+      "name": "Changyun"
+    },
+    {
+      "type": "character",
+      "name": "Noëlle"
+    },
+    {
+      "type": "character",
+      "name": "Benneett"
+    },
+    {
+      "type": "character",
+      "name": "Fischl"
+    },
+    {
+      "type": "character",
+      "name": "Ningguang"
+    },
+    {
+      "type": "character",
+      "name": "Beidou"
+    },
+    {
+      "type": "character",
+      "name": "Xiangling"
+    },
+    {
+      "type": "character",
+      "name": "Razor"
+    },
+    {
+      "type": "character",
+      "name": "Barbara"
+    },
+
+    {
+      "type": "weapon",
+      "name": "Arc rouillé"
+    },
+    {
+      "type": "weapon",
+      "name": "Arc rituel"
+    },
+    {
+      "type": "weapon",
+      "name": "Dernière corde"
+    },
+    {
+      "type": "weapon",
+      "name": "Arc de chasse de Favonius"
+    },
+    {
+      "type": "weapon",
+      "name": "Œil de la perception"
+    },
+    {
+      "type": "weapon",
+      "name": "Mémoires de rituels"
+    },
+    {
+      "type": "weapon",
+      "name": "Mouvement vagabond"
+    },
+    {
+      "type": "weapon",
+      "name": "Code de Favonius"
+    },
+    {
+      "type": "weapon",
+      "name": "Lance de Favonius"
+    },
+    {
+      "type": "weapon",
+      "name": "Fléau du dragon"
+    },
+    {
+      "type": "weapon",
+      "name": "Fluorescence"
+    },
+    {
+      "type": "weapon",
+      "name": "Espadon rituel"
+    },
+    {
+      "type": "weapon",
+      "name": "Épée-horloge"
+    },
+    {
+      "type": "weapon",
+      "name": "Espadon de Favonius"
+    },
+    {
+      "type": "weapon",
+      "name": "Ruugissement du Lion"
+    },
+    {
+      "type": "weapon",
+      "name": "Épée rituelle"
+    },
+    {
+      "type": "weapon",
+      "name": "Flûte"
+    },
+    {
+      "type": "weapon",
+      "name": "Épée de Favonius"
+    }
+  ],
+  "5*": [
+    {
+      "type": "character",
+      "name": "Ganyu"
+    },
+    {
+      "type": "character",
+      "name": "Keqing"
+    },
+    {
+      "type": "character",
+      "name": "Mona"
+    },
+    {
+      "type": "character",
+      "name": "Qiqi"
+    },
+    {
+      "type": "character",
+      "name": "Diluc"
+    },
+    {
+      "type": "character",
+      "name": "Jean"
+    }
+  ]
+}
