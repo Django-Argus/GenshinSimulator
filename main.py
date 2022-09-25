@@ -40,10 +40,11 @@ def analize(data):
     print(str((upFive / wishs) * 100) + "%")
 
 
+argL = len(sys.argv)
 data = []
-for i in range(10000):
-    sim = Simulator(False, 9, loadBanner(sys.argv[-1]))
-    data.append(start(sim, 147))
+for i in range(sys.argv[argL - 1]):
+    sim = Simulator(sys.argv[argL - 5], sys.argv[argL - 4], loadBanner(sys.argv[argL - 2]))
+    data.append(start(sim, sys.argv[argL - 3]))
 
 analize(data)
 
