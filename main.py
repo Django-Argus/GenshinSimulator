@@ -55,7 +55,7 @@ try:
     pity = int(sys.argv[argL - 4])
     wishs = int(sys.argv[argL - 3])
     banner = str(sys.argv[argL - 2])
-except IndexError:
+except Exception:
     simulation = int(input("Simulation(s): "))
     guarantee = str2bool(input("Guarantee: "))
     pity = int(input("Pity: "))
