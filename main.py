@@ -1,5 +1,6 @@
 from simulator import Simulator
 from loader import loadBanner
+import sys
 
 p = 0
 
@@ -41,7 +42,7 @@ def analize(data):
 
 data = []
 for i in range(10000):
-    sim = Simulator(False, 9, loadBanner("banner/ganyu.json"))
+    sim = Simulator(False, 9, loadBanner(sys.argv[-1]))
     data.append(start(sim, 147))
 
 analize(data)
